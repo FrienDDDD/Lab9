@@ -23,14 +23,14 @@ char findGrade(double x){
 } 
 
 int main(){
-	//Input the number of students
+
 	int N,i = 0;
 	cout << "Enter the number of students: ";
 	cin >> N;
 	string name[N];
 	float score[N];	
 	
-	//Store names and scores of students into an array 
+	
 	while(i < N){
 		cout << "Name of student " << i+1 << ": ";
 		cin.ignore();
@@ -40,7 +40,7 @@ int main(){
 		i++;
 	}
 	
-	//Print names scores and grades
+	
 	i = 0;
 	cout << "---------------------------------------------\n";
 	cout << setw(25) << "Name" << setw(8) << "Score" << setw(8) << "Grade" << "\n";
